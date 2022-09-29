@@ -47,4 +47,26 @@ section{
 }
 .now{
     box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 70%;
+    background-color:white ;
+}
+.experience{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full{
+    border-left: 8px  solid;
+    border-image: linear-gradient(180deg,lightSalmon,tomato);
+    border-image-slice: 2;
+}
+#ok{
+    border-left: 8px  solid;
+    border-image: linear-gradient(180deg, red,green);
+    border-image-slice: 2;
+}
+footer p{
+    text-align: center;
+    font-size: 15px;
 }
